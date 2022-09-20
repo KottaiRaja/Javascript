@@ -1,0 +1,31 @@
+body{
+    background: black;
+    padding-bottom: 20px;
+}
+.img1{
+    text-align: center;
+}
+.img2{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+    background: gray;
+    height: 150px;
+    width: 300px;
+    padding-top: 40px;
+    margin-left: 420px;
+    border-radius: 30px;
+}
+
+button{
+    border-radius: 10px;
+    border: 0;
+    width: 60px;
+}
+p{
+    font-size:20px ;
+    color: white;
+}
