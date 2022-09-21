@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Traffic</title>
+    <title>Color Picker</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,28 +12,28 @@
   </head>
   <body>
 
-  
-    <div class="con  col-lg-12 container">
-      <h2 class="text-center text-dark">Traffic Light</h2>
-
-      <div class="d-flex">
-      <div class="con2">
-        <button id="red1" onclick="c1()">Stop</button><br>
-        <button id="yellow1" onclick="c2()">Ready</button><br>
-        <button id="green1" onclick="c3()">Go</button>
-    </div>
-        <div class="con1 container-fluid">
-            <button id="red"></button>
-            <br>
-            <button id="yellow"></button>
-            <br>
-            <button id="green"></button>
-    
+    <div class="container-fluid div1" id="color">
+        <h1 class="text-dark text-center">Color Picker</h1>
+        <div class="text-center pb-5 pt-3">
+        <button onclick="gray()" class="btn1">#e0e0e0</button>
+        <button onclick="green()" class="btn2">#6fcf97</button>
+        <button onclick="blue()" class="btn3">#56ccf2</button>
+        <button onclick="purple()" class="btn4">#bb6bd9</button>
         </div>
-      </div>
+        
+        <h2 class="text-center text-white bg-dark p-3 h2">Background color: <span class="text-info" id="h2">#fffff</span></h2>
+        <p class="p-5 text-center">Try clicking on one of the colors above to change the background color of this page!</p>
     </div>
-   
-      <script src="traffic.js"></script>
+      
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
