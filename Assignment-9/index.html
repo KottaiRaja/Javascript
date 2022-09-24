@@ -10,20 +10,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      <div class="text-center m-5">
-        <div>
-            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sum-of-two-numbers-img.png" id="img1" ><br>
-            <span id="sp1"></span>
-            <span>+</span>
-            <span id="sp2"></span>
-            <span>=</span>
-            <input type="text" id="user">
+      <div class=" mt-5 ml-auto mr-auto pb-4" id="div1">
+        <div class="text-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sum-of-two-numbers-img.png" id="img1" class="pt-4"><br>
+            <div class="pt-4">
+              <span id="sp1"></span>
+              <span>+</span>
+              <span id="sp2"></span>
+              <span class="pt-3">=</span>
+              <input type="text" id="user" class="text-center">
+            </div>
+           
         </div>
-        <div class="m-4">
+        <div class="m-4 text-center pt-2">
             <button id="btn1" onclick="check()" class="mr-3">Check</button>
             <button id="btn2" onclick="reset()" class="ml-3">Reset</button>
         </div>
-        <p id="result" class="text-center"></p>
+        <p id="result" class="ml-auto mr-auto text-center"></p>
       </div>
 
 

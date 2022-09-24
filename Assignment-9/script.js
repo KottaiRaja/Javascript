@@ -22,6 +22,7 @@ function reset(){
    sp2.textContent=Math.ceil(r2);
    result.textContent = "";
    user.value = "";
+   result.style.padding="";
 }
 reset();
 
@@ -35,10 +36,12 @@ function check (){
         result.textContent=success;
         result.style.backgroundColor="green";
         result.style.color="white";
+        result.style.padding="10px";
     }else{
         result.textContent=tryagain;
         result.style.backgroundColor="#000000";
         result.style.color="white";
+        result.style.padding="10px";
     }
 }
 
@@ -56,8 +59,13 @@ btn2.style.border="0";
 btn1.style.borderRadius="50px";
 btn2.style.borderRadius="50px";
 
-result.style.padding="10px";
+
 result.style.width="300px";
-result.style.marginLeft="450px";
 result.style.borderRadius="30px";
 user.style.borderRadius="30px";
+
+
+let div1 = document.getElementById("div1");
+div1.style.backgroundColor="pink";
+div1.style.width="500px";
+div1.style.borderRadius="50px";
